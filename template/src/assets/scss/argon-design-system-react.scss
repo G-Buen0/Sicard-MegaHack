@@ -1,0 +1,69 @@
+/*!
+
+=========================================================
+* Argon Design System React - v1.1.0 based on Argon Design System - v1.1.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+// Bootstrap Functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Theme Variables
+@import "argon-design-system/variables";
+
+// Bootstrap Core
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Theme Core
+@import "argon-design-system/theme";
+
+// React Differences
+@import "react/react-differences";
+
+
+@font-face {
+      font-family: 'Soleil';
+      font-style: normal;
+      font-weight: 400;
+      src: 
+            url('../fonts/Soleil-Bold-Italic.otf') format('otf'),
+            url('../fonts/Soleil-Bold.otf') format('otf'),
+            url('../fonts/Soleil-Book-Italic.otf') format('otf'),
+            url('../fonts/Soleil-Book.otf') format('otf'),
+            url('../fonts/Soleil-ExtraBold-Italic.otf') format('otf'),
+            url('../fonts/Soleil-ExtraBold.otf') format('otf'),
+            url('../fonts/Soleil-Italic.otf') formt('otf'),
+            url('../fonts/Soleil-Light-Italic.otf') format('otf'),
+            url('../fonts/Soleil-Light.otf') format('otf'),
+            url('../fonts/Soleil-Regular.otf') format('otf'),
+            url('../fonts/Soleil-SemiBold-Italic.otf') format('otf'),
+            url('../fonts/Soleil-SemiBold.otf') format('otf');
+}
+
+body {
+      font-family: 'Soleil' sans-serif;
+      font-weight: 400 !important;
+      background-image: url('../img/theme/bg7.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+
+.pageTitle {
+      font-family: "Soleil-Bold";
+      font-size: 20px;
+      margin-bottom: 25px;
+
+}
+

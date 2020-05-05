@@ -1,0 +1,6 @@
+template/build
+template/node_modules
+template/package-lock.json
+
+backend/node_modules
+backend/.env
